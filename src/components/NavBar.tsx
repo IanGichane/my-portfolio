@@ -8,16 +8,16 @@ import { buttonVariants } from './ui/button'
 import Link from 'next/link'
 
 
-interface MenuItem {
-    id: number;
-    name: string;
-    path: string;
-  }
+// interface MenuItem {
+//     id: number;
+//     name: string;
+//     path: string;
+//   }
 
-  interface NavbarProps {
-    menu: MenuItem[];
-  }
-const NavBar: React.FC<NavbarProps> = ({menu}) => {
+//   interface NavbarProps {
+//     menu: MenuItem[];
+//   }
+const NavBar = () => {
 
     const handleScroll = (event:React.SyntheticEvent)=>{
         event.preventDefault()
